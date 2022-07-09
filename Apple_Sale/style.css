@@ -1,0 +1,145 @@
+body{
+    background-image:linear-gradient(to right,aquamarine,white,rgb(27, 176, 126));
+}
+
+.container{ 
+    margin:0px auto;
+    width: 500px; 
+    display: flex;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.product_details{
+    width: 700px;
+    background-color: white;
+    height: 510px;
+    display: flex;
+}
+
+.product_image{
+    width:250px;
+    /* background:radial-gradient(#f4f4f4 30%,greenyellow,20%); */
+    height: 410px;
+    position:absolute;
+    left: 27%;
+    top:50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_first{
+    flex: 0.5;
+    /* background-color: blue; */
+}
+
+.detail_second{
+    flex: 0.6;
+    /* background-color:brown; */
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.code_text{
+    font-size: 8px;
+    opacity: 0.3;
+}
+
+.cost_text{
+   color: red;
+   font-size: 20px;
+}
+
+.price_text{
+    font-size: 80px;
+}
+
+.container_images{
+    padding-left: 10px;
+    height: 40px;
+    width:40px;
+}
+
+.container_images:hover{
+    border: 1px solid blue;
+    border-radius: 3px;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+li{
+    font-size: 0.7em;
+}
+
+
+.button{
+    background-color: indianred;
+    color: white;
+    padding: 15px 30px;
+    border:none;
+    border-radius: 7.5px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    box-shadow: 2px 2px 35px -5px grey;
+}
+
+.button:hover{
+    background-color: lightgreen;
+    border: 1px;
+    transform: scale(0.9);
+    cursor: pointer;  
+}
+
+.top_section{
+    flex: 0.8;
+    background:radial-gradient(white 30%,greenyellow 70%);
+}
+
+.bottom_section{
+    flex:0.2;
+    background-color:white;
+    
+}
+
+.main_apple{
+    position: absolute;
+    left: -90px;
+    height: 250px;
+    top:20px
+}
+
+.bottom_images{ 
+    padding-left: 15px;
+    height: 40px;
+    width:40px;
+    padding-top:20px;
+}
+
+.bottom_images:hover{
+    border: 0.5px solid red;
+    border-radius: 3px;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.icon1{
+    color: white;
+    margin: 10px;
+}
+
+.icon2{
+    color: white;
+    float: right;
+    margin: 10px;
+}
+
+.icon1:hover{
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.icon2:hover{
+    cursor: pointer;
+    border-radius: 3px;
+}
